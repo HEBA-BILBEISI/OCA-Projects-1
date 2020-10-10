@@ -1,0 +1,63 @@
+.background{
+  background-image: url('download.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-position:center center;
+}
+
+
+
+.container{
+  display: flex;
+box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding-top: 3rem;
+  padding-bottom: 13.4rem;
+
+}
+
+.box1{
+  flex: 1;
+  background-image: url('box1.png');
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Architects Daughter';
+
+}
+
+
+.box2{
+  flex: 1;
+  background-image: url('box2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img{
+  width: 9rem;
+  height: 9rem;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.p1, .p2{
+  font-family: 'Architects Daughter';
+}
+
+.writing{
+  font-family: 'Arizonia' !important;
+  border: black solid 3px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: auto auto;
+ width: 100%;
+ padding-left: 5%;
+ background-color: #111;
+color: white;;
+}

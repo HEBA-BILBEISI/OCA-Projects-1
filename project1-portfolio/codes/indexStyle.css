@@ -1,0 +1,33 @@
+
+*{
+ font-family: 'Architects Daughter';
+}
+
+.background{
+background-image: url('gif1.gif');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-position:center center;
+}
+
+.content{
+display: grid;
+padding-bottom: 25rem;
+grid-template-columns: auto;  
+padding-top: 10%;
+padding-left: 5%;
+}
+
+
+.footer{
+  display: grid;
+  grid-template-columns: auto auto;
+ width: 100%;
+ padding-left: 5%;
+ background-color: #111;
+color: white;;
+}
+
+
+

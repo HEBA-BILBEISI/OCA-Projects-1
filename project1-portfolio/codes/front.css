@@ -1,0 +1,39 @@
+*{
+ font-family: 'Architects Daughter';
+}
+
+
+.image{
+  width: 100%;
+  height: 370px;
+  padding-bottom: 1%;
+}
+
+.con{
+  display: grid;
+  grid-template-columns: auto;
+padding-top: 2%;
+padding-left: 3%;
+padding-bottom: 5%;
+background-image: url(htmlCss.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.anime{
+  height: 10rem;
+  width: 10rem;
+  margin-left:auto;
+  display: block;
+position: static;
+margin-right: auto;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: auto auto;
+ width: 100%;
+ padding-left: 5%;
+ background-color: #111;
+color: white;;
+}
